@@ -1,0 +1,12 @@
+INSTRUCCIONES PARA EL DRIVER JDBC DE SQLITE:
+
+1. Descarga el archivo 'sqlite-jdbc-3.47.1.0.jar' (o la ultima version disponible) desde Maven Central:
+   https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.47.1.0/sqlite-jdbc-3.47.1.0.jar
+
+2. Guarda ese archivo .jar dentro de esta carpeta 'lib/' con el nombre:
+   sqlite-jdbc.jar
+
+3. En Visual Studio Code:
+   - Abre el panel lateral 'JAVA PROJECTS' (abajo en el Explorador).
+   - Despliega 'Referenced Libraries'.
+   - Haz clic en el boton '+' y selecciona 'lib/sqlite-jdbc.jar'.
